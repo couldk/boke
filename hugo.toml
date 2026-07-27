@@ -1,0 +1,25 @@
+baseURL = 'https://couldk.github.io/boke/'
+languageCode = 'zh-cn'
+title = 'Boke'
+theme = 'PaperMod'
+
+[params]
+  author = 'couldk'
+  description = '个人博客'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = '文章'
+    pageRef = '/posts'
+    weight = 10
+  [[menu.main]]
+    name = '标签'
+    pageRef = '/tags'
+    weight = 20
+  [[menu.main]]
+    name = '关于'
+    pageRef = '/about'
+    weight = 30
