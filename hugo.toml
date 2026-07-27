@@ -1,5 +1,5 @@
 baseURL = 'https://couldk.github.io/boke/'
-languageCode = 'zh-cn'
+locale = 'zh-cn'
 title = 'Boke'
 theme = 'PaperMod'
 
